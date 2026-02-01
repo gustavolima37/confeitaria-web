@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Detalhes do Pedido #{{ pedido.id }}</h1>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <p><strong>Cliente:</strong> {{ pedido.cliente.nome }}</p>
+            <p><strong>Forma de pagamento:</strong> {{ pedido.get_forma_pagamento_display }}</p>
+            <p><strong>Data do pedido:</strong> {{ pedido.data_pedido|date:"d/m/Y" }}</p>
+            <p><strong>Data de entrega:</strong> {{ pedido.data_entrega|date:"d/m/Y" }}</p>
+            <p><strong>Valor total:</strong> <span class="fw-bold text-success">R$ {{ pedido.valor_total }}</span></p>
+        </div>
+    </div>
+
+    <h2 class="mb-3">Itens do Pedido</h2>
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in pedido.itens.all %}
+            <tr>
+                <td>{{ item.produto.nome }}</td>
+                <td>{{ item.quantidade }}</td>
+                <td>R$ {{ item.subtotal }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="3" class="text-center">Nenhum item neste pedido.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{% url 'lista_pedidos' %}" class="btn btn-secondary mt-3">Voltar para lista de pedidos</a>
+</div>
+{% endblock %}

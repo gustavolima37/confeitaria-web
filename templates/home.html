@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="mb-4">Bem-vindo à Confeitaria 🍰</h1>
+    <p class="lead">Aqui você encontra os melhores doces e pode gerenciar clientes, produtos e pedidos de forma simples.</p>
+</div>
+
+<div class="row mt-5">
+    <!-- Card Clientes -->
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">👥 Clientes</h5>
+                <p class="card-text">Gerencie os clientes da confeitaria.</p>
+                <a href="{% url 'lista_clientes' %}" class="btn btn-primary">Ver Clientes</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Produtos -->
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">🛍️ Produtos</h5>
+                <p class="card-text">Confira os produtos disponíveis.</p>
+                <a href="{% url 'lista_produtos' %}" class="btn btn-success">Ver Produtos</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Pedidos -->
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">📦 Pedidos</h5>
+                <p class="card-text">Acompanhe os pedidos realizados.</p>
+                <a href="{% url 'lista_pedidos' %}" class="btn btn-warning">Ver Pedidos</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

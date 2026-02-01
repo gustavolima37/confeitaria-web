@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Detalhes do Produto</h1>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3 class="card-title">{{ produto.nome }}</h3>
+            <p><strong>Descrição:</strong> {{ produto.descricao }}</p>
+            <p><strong>Preço:</strong> <span class="fw-bold text-success">R$ {{ produto.preco }}</span></p>
+            <p><strong>Quantidade em estoque:</strong> {{ produto.quantidade }}</p>
+            <p>
+                <strong>Disponibilidade:</strong>
+                {% if produto.disponibilidade %}
+                    <span class="badge bg-success">Disponível</span>
+                {% else %}
+                    <span class="badge bg-danger">Indisponível</span>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+
+    <a href="{% url 'lista_produtos' %}" class="btn btn-secondary mt-3">Voltar para lista de produtos</a>
+</div>
+{% endblock %}
