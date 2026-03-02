@@ -1,11 +1,7 @@
 ```markdown
 # 🍰 Confeitaria Web
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Django](https://img.shields.io/badge/Django-5.x-green?logo=django)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-yellow?logo=pandas)
-![SQLite](https://img.shields.io/badge/SQLite-3-lightgrey?logo=sqlite)
+🐍 Python | 🌐 Django | 🎨 Bootstrap | 📊 Pandas | 💾 SQLite
 
 Sistema web desenvolvido em **Django** para gestão de uma confeitaria.  
 Permite o cadastro e gerenciamento de **clientes, endereços, produtos e pedidos**, com interface administrativa via Django Admin e páginas front-end estilizadas com Bootstrap.
