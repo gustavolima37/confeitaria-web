@@ -4,7 +4,8 @@
 🐍 Python | 🌐 Django | 🎨 Bootstrap | 📊 Pandas | 💾 SQLite
 
 Sistema web desenvolvido em **Django** para gestão de uma confeitaria.  
-Permite o cadastro e gerenciamento de **clientes, endereços, produtos e pedidos**, com interface administrativa via Django Admin e páginas front-end estilizadas com Bootstrap.
+Permite o cadastro e gerenciamento de **clientes, endereços, produtos e pedidos**,
+com interface administrativa via Django Admin e páginas front-end estilizadas com Bootstrap.
 ---
 
 ## 🚀 Funcionalidades
