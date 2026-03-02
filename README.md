@@ -90,7 +90,7 @@ PROJETO-CONFEITARIA/
 ![Lista de Produtos](docs/imagens/lista_produtos.png)
 
 ### Detalhe de Cliente
-![Detalhe de Cliente](docs/imagens/lista_cliente.png)
+![Detalhe de Cliente](docs/imagens/lista_clientes.png)
 
 ### Lista de Pedidos
 ![Lista de Pedidos](docs/imagens/detalhe_pedidos.png)
