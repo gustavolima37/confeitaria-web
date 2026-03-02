@@ -6,11 +6,12 @@ from .models import Produto
 
 class ProdutoListView(ListView):
     model = Produto
-    template_name = 'produtos/lista.html'
+    template_name = 'produtos/lista_produtos.html'
+    context_object_name = 'produtos'
 
 class ProdutoDetailView(DetailView):
     model = Produto
-    template_name = 'produtos/detalhe.html'
+    template_name = 'produtos/detalhe_produto.html'
        
 class ProdutoCreateView(CreateView):
     model = Produto

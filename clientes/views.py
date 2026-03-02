@@ -5,11 +5,12 @@ from django.urls import reverse_lazy
 # Create your views here.
 class ClienteListView(ListView):
     model = Cliente
-    template_name = 'clientes/lista.html'
+    template_name = 'clientes/lista_clientes.html'
+    context_object_name = 'clientes'
 
 class ClienteDetailView(DetailView):
     model = Cliente
-    template_name = 'clientes/detalhe.html'
+    template_name = 'clientes/detalhe_clientes.html'
 
 class ClienteCreateView(CreateView):
     model = Cliente

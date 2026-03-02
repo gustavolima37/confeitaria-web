@@ -6,11 +6,12 @@ from .models import Pedido
 
 class PedidoListView(ListView):
     model = Pedido
-    template_name = 'pedidos/lista.html'
+    template_name = 'pedidos/lista_pedidos.html'
+    context_object_name = 'pedidos'
 
 class PedidoDetailView(DetailView):
     model = Pedido
-    template_name = 'pedidos/detalhe.html'
+    template_name = 'pedidos/detalhe_pedido.html'
        
 class PedidoCreateView(CreateView):
     model = Pedido

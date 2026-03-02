@@ -1,0 +1,51 @@
+nome,cpf,telefone,email,bairro,rua,numero,cep
+Lucas Andrade,90000000001,11990000001,lucas.andrade@email.com,Centro,Rua A,10,01001000
+Mariana Pires,90000000002,11990000002,mariana.pires@email.com,Centro,Rua B,20,01001000
+Rafael Nogueira,90000000003,11990000003,rafael.n@email.com,Vila Mariana,Rua C,30,04010000
+Juliana Torres,90000000004,11990000004,juliana.t@email.com,Moema,Rua D,40,04524001
+Felipe Costa,90000000005,11990000005,felipe.c@email.com,Pinheiros,Rua E,50,05422001
+Camila Rocha,90000000006,11990000006,camila.r@email.com,Santana,Rua F,60,02022000
+Bruno Farias,90000000007,11990000007,bruno.f@email.com,Tatuapé,Rua G,70,03318000
+Ana Beatriz Lima,90000000008,11990000008,ana.lima@email.com,Lapa,Rua H,80,05042000
+Thiago Martins,90000000009,11990000009,thiago.m@email.com,Mooca,Rua I,90,03104000
+Patricia Azevedo,90000000010,11990000010,patricia.a@email.com,Ipiranga,Rua J,100,04208000
+Eduardo Ribeiro,90000000011,11990000011,eduardo.r@email.com,Saúde,Rua K,110,04121000
+Renata Guedes,90000000012,11990000012,renata.g@email.com,Butantã,Rua L,120,05509000
+Diego Barros,90000000013,11990000013,diego.b@email.com,Perdizes,Rua M,130,05012000
+Vanessa Moreira,90000000014,11990000014,vanessa.m@email.com,Liberdade,Rua N,140,01506000
+Rodrigo Cunha,90000000015,11990000015,rodrigo.c@email.com,Campo Belo,Rua O,150,04620000
+Larissa Teixeira,90000000016,11990000016,larissa.t@email.com,Vila Olímpia,Rua P,160,04551000
+Gustavo Lopes,90000000017,11990000017,gustavo.l@email.com,Consolação,Rua Q,170,01304000
+Paula Freitas,90000000018,11990000018,paula.f@email.com,Aclimação,Rua R,180,01529000
+André Menezes,90000000019,11990000019,andre.m@email.com,Anália Franco,Rua S,190,03337000
+Bianca Vasconcelos,90000000020,11990000020,bianca.v@email.com,Vila Prudente,Rua T,200,03131000
+Cliente 21,90000000021,11990000021,c21@email.com,Centro,Rua U,210,01002000
+Cliente 22,90000000022,11990000022,c22@email.com,Centro,Rua V,220,01002000
+Cliente 23,90000000023,11990000023,c23@email.com,Centro,Rua W,230,01002000
+Cliente 24,90000000024,11990000024,c24@email.com,Centro,Rua X,240,01002000
+Cliente 25,90000000025,11990000025,c25@email.com,Centro,Rua Y,250,01002000
+Cliente 26,90000000026,11990000026,c26@email.com,Centro,Rua Z,260,01002000
+Cliente 27,90000000027,11990000027,c27@email.com,Centro,Rua AA,270,01002000
+Cliente 28,90000000028,11990000028,c28@email.com,Centro,Rua AB,280,01002000
+Cliente 29,90000000029,11990000029,c29@email.com,Centro,Rua AC,290,01002000
+Cliente 30,90000000030,11990000030,c30@email.com,Centro,Rua AD,300,01002000
+Cliente 31,90000000031,11990000031,c31@email.com,Centro,Rua AE,310,01002000
+Cliente 32,90000000032,11990000032,c32@email.com,Centro,Rua AF,320,01002000
+Cliente 33,90000000033,11990000033,c33@email.com,Centro,Rua AG,330,01002000
+Cliente 34,90000000034,11990000034,c34@email.com,Centro,Rua AH,340,01002000
+Cliente 35,90000000035,11990000035,c35@email.com,Centro,Rua AI,350,01002000
+Cliente 36,90000000036,11990000036,c36@email.com,Centro,Rua AJ,360,01002000
+Cliente 37,90000000037,11990000037,c37@email.com,Centro,Rua AK,370,01002000
+Cliente 38,90000000038,11990000038,c38@email.com,Centro,Rua AL,380,01002000
+Cliente 39,90000000039,11990000039,c39@email.com,Centro,Rua AM,390,01002000
+Cliente 40,90000000040,11990000040,c40@email.com,Centro,Rua AN,400,01002000
+Cliente 41,90000000041,11990000041,c41@email.com,Centro,Rua AO,410,01002000
+Cliente 42,90000000042,11990000042,c42@email.com,Centro,Rua AP,420,01002000
+Cliente 43,90000000043,11990000043,c43@email.com,Centro,Rua AQ,430,01002000
+Cliente 44,90000000044,11990000044,c44@email.com,Centro,Rua AR,440,01002000
+Cliente 45,90000000045,11990000045,c45@email.com,Centro,Rua AS,450,01002000
+Cliente 46,90000000046,11990000046,c46@email.com,Centro,Rua AT,460,01002000
+Cliente 47,90000000047,11990000047,c47@email.com,Centro,Rua AU,470,01002000
+Cliente 48,90000000048,11990000048,c48@email.com,Centro,Rua AV,480,01002000
+Cliente 49,90000000049,11990000049,c49@email.com,Centro,Rua AW,490,01002000
+Cliente 50,90000000050,11990000050,c50@email.com,Centro,Rua AX,500,01002000
