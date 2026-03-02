@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<div class="container mt-4">
+    <h2>Cadastrar Endereço</h2>
+    
+    <form method="POST" class="card p-4 shadow-sm">
+        {% csrf_token %} <div class="row">
+            <div class="col-md-12 mb-3">
+                <label><strong>Cliente:</strong></label>
+                {{ form.cliente }} </div>
+            
+            <div class="col-md-6 mb-2">
+                <label>Rua:</label> {{ form.rua }}
+            </div>
+            <div class="col-md-2 mb-2">
+                <label>Número:</label> {{ form.numero }}
+            </div>
+            <div class="col-md-4 mb-2">
+                <label>Bairro:</label> {{ form.bairro }}
+            </div>
+            
+            <div class="col-md-6 mb-2">
+                <label>Complemento:</label> {{ form.complemento }}
+            </div>
+            <div class="col-md-6 mb-2">
+                <label>Cidade:</label> {{ form.cidade }}
+            </div>
+            
+            <div class="col-md-6 mb-2">
+                <label>Estado:</label> {{ form.estado }}
+            </div>
+            <div class="col-md-6 mb-2">
+                <label>Cep:</label> {{ form.cep }}
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary">Salvar Endereço</button>
+            <a href="{% url 'lista_enderecos' %}" class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+
+    <hr>
+    <h3>Endereços Cadastrados</h3>
+    </div>
+
+<style>
+    /* Estilo para os campos ficarem bonitos como na sua imagem */
+    input, select {
+        width: 100%;
+        padding: 6px 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+</style>
+{% endblock %}

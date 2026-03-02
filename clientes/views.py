@@ -21,7 +21,7 @@ class ClienteUpdateView(UpdateView):
     model = Cliente
     fields = ['nome', 'telefone', 'email']
     template_name = "clientes/form.html"
-    seccess_url = reverse_lazy("lista_clientes")
+    success_url = reverse_lazy("lista_clientes")
 
 class ClienteDeleteView(DeleteView):
     model = Cliente
